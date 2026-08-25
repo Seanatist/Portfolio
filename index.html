@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Egbayelo Olusegun — Data Scientist</title>
+  <meta name="description" content="Portfolio of Egbayelo Olusegun (Seanatist) — data analyst, data scientist, and applied ML." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo" href="index.html">Sean<span>atist</span></a>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="projects/index.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <div class="eyebrow">Data Analyst · Data Scientist · Applied ML</div>
+        <h1>Egbayelo<br /><span class="accent">Olusegun</span></h1>
+        <p class="lede">
+          I turn messy operational data into decisions — BI systems, predictive models,
+          and fairness-aware machine learning.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="projects/index.html">View selected work</a>
+          <a class="btn btn-ghost" href="https://github.com/Seanatist" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card">
+          <strong>Featured: Seanation Enterprise</strong>
+          <span>Live FastAPI ops BI — synthetic agri dashboard with explorers &amp; board-pack export</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>Selected work</h2>
+      <p class="intro">Five case studies spanning analytics engineering, productized BI, and applied ML.</p>
+      <div class="project-grid">
+        <a class="project-card" href="projects/seanation-enterprise.html" style="animation-delay:.05s">
+          <span class="tag">Productized BI</span>
+          <h3>Seanation Enterprise Live Dashboard</h3>
+          <p>FastAPI live KPIs, explorers, executive narrative, and PowerPoint export on fully synthetic agri-ops data.</p>
+          <span class="meta">Python · FastAPI · Pandas</span>
+        </a>
+        <a class="project-card" href="projects/agri-mfb.html" style="animation-delay:.1s">
+          <span class="tag">Analytics engineering</span>
+          <h3>Agri MFB Analytics</h3>
+          <p>Board-ready microfinance analytics: PostgreSQL warehouse, Python ETL, and Power BI pack.</p>
+          <span class="meta">SQL · Python · Power BI</span>
+        </a>
+        <a class="project-card" href="projects/loan-fairness.html" style="animation-delay:.15s">
+          <span class="tag">Responsible AI</span>
+          <h3>Loan Eligibility &amp; Fairness Audit</h3>
+          <p>Train a loan model, then audit demographic parity and equalized odds with Fairlearn + Streamlit.</p>
+          <span class="meta">Scikit-learn · Fairlearn · Streamlit</span>
+        </a>
+        <a class="project-card" href="projects/customer-churn.html" style="animation-delay:.2s">
+          <span class="tag">Predictive modeling</span>
+          <h3>Customer Churn Demo</h3>
+          <p>Telecom churn prediction from profile and billing features — notebook to deployable app.</p>
+          <span class="meta">Python · ML · Streamlit</span>
+        </a>
+        <a class="project-card" href="projects/customer-trends.html" style="animation-delay:.25s">
+          <span class="tag">Analyst storytelling</span>
+          <h3>Customer Trends Analysis</h3>
+          <p>End-to-end shopping behavior study across Python, SQL, and Power BI.</p>
+          <span class="meta">Python · SQL · Power BI</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="wrap section" style="padding-top:0">
+      <h2>Stack</h2>
+      <p class="intro">Tools I use to move from raw tables to decisions and models.</p>
+      <div class="stack">
+        <span class="chip">Python</span>
+        <span class="chip">SQL / PostgreSQL</span>
+        <span class="chip">Pandas</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Power BI</span>
+        <span class="chip">Scikit-learn</span>
+        <span class="chip">Fairlearn</span>
+        <span class="chip">Streamlit</span>
+        <span class="chip">ETL pipelines</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="y"></span> Egbayelo Olusegun</span>
+      <span>
+        <a href="https://github.com/Seanatist" target="_blank" rel="noopener">GitHub</a>
+        ·
+        <a href="https://www.linkedin.com/in/olusegun-egbayelo-74386b2a6" target="_blank" rel="noopener">LinkedIn</a>
+      </span>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
